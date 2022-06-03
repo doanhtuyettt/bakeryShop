@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Signup {
+  background-image: linear-gradient(to bottom right, cornflowerblue,blueviolet);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-left: 140px;
+}
+
+form{
+    width: 60%;
+    padding: 32px 24px;
+    background: #fff;
+    border-radius: 2px;
+    margin: 24px;
+}
+ 
+form .title{
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+}
+
+form .title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 50px;
+  background: #9b59b6;
+
+}
+
+form .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+form .container .input-box{
+  width: calc(100% /2 - 15px);
+}
+
+.container .input-box input{
+  height: 35px;
+  width: 100%;
+}
+
+input[type=text], input[type=password],input[type=tel]{
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+.form-label b{
+  text-align: left;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 30px;
+  margin: 8px 30%;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+button:hover {
+  opacity:1;
+}
+
+a{
+  cursor: pointer;
+}
+
+a:hover {
+  color :blue;
+}
+
+.spacer {
+  margin-top: 30px;
+}
+
+.bottom2{
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 300px) {
+  .signupbtn {
+    width: 100%;
+  }
+} 

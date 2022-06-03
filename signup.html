@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href="signup.css">
+  <title>Sign up</title>
+</head>
+
+<body>
+  <div class ="Signup">
+    <form id="signup" action="" method="POST" id="form-1">
+        <div class = "title">ĐĂNG KÝ</div>
+        <div class="spacer"></div>
+        <div class="container">
+          <div class="input-box">
+            <label for="fname" class="form-label"><b>Full Name</b></label>
+            <input type="text" placeholder="VD : DO ANH TUYET" name="fname" required>
+          </div>
+
+          <div class="input-box">
+            <label for="uname" class="form-label"><b>User Name</b></label>
+            <input type="text" placeholder="VD : tuyet.0601" name="uname" required>
+          </div>
+
+          <div class="input-box">
+            <label for="email" class="form-label"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+          </div>
+
+          <div class="input-box">
+            <label for="phone number" class="form-label"><b>Phone number</b></label>
+            <input type="tel" placeholder="Enter your phone number" name="Phone number" required>
+          </div>
+
+          <div class="input-box">
+            <label for="psw" class="form-label"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+          </div>
+
+          <div class="input-box">
+            <label for="psw-repeat" class="form-label"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          </div>
+          
+          <div class ="bottom">
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Nhớ đăng nhập 
+            </label>
+            
+            <p>Bằng việc đăng kí, bạn đã đồng ý với Harper Mart về <a href="#" style="color:dodgerblue">Điều khoản dịch vụ & Chính sách bảo mật</a>.</p>
+        
+            <div class="clearfix">
+              <button type="submit" class="signupbtn">Đăng ký</button>
+            </div>
+          </div>
+
+          <div class ="bottom2">
+            <div class="spacer"></div>
+            <h4> Bạn đã có tài khoản ?</h4> <a href="login.html">Đăng nhập</a>
+          </div>
+        </div>
+    </form>
+  </div>
+</body>
+</html>
